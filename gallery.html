@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Bridal Hair By Jill</title>
+
+<meta name="description" content="Jill is a professional hair stylist specialising in wedding hair for brides and their bridal party." />
+<meta name="keywords" content="jill letch, essex, bridal hair essex, wedding hair, essex hair, wedding hairstyles, formal, hair, haircuts, pictures, bride, bridal" />
+<meta name="rating" content="General" />
+<meta name="robots" content="all" />
+
+
+    <link href="Content/Site.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-1.4.2.min.js"  type="text/javascript"></script>
+    <script src="Scripts/imageflow.js"  type="text/javascript"></script>
+    <link href="Content/imageflow.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/thickbox.js" type="text/javascript"></script>
+    <link href="Content/thickbox.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var $el, leftPos, newWidth, $mainNav = $("#example-one");
+
+            $mainNav.append("<li id='magic-line'></li>");
+            var $magicLine = $("#magic-line");
+
+            $magicLine
+                .width($(".current_page_item").width())
+                .css("left", $(".current_page_item a").position().left)
+                .data("origLeft", $magicLine.position().left)
+                .data("origWidth", $magicLine.width());
+
+            $("#example-one li a.slidey").hover(function () {
+                $el = $(this);
+                leftPos = $el.position().left;
+                newWidth = $el.parent().width();
+                $magicLine.stop().animate({
+                    left: leftPos,
+                    width: newWidth
+                });
+            }, function () {
+                $magicLine.stop().animate({
+                    left: $magicLine.data("origLeft"),
+                    width: $magicLine.data("origWidth")
+                });
+            });
+
+        });
+
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="light"></div>
+        <div class="header"></div>
+
+        <div id="menu" class="menu">
+            <div class="nav-wrap">
+ <ul class="group" id="example-one">
+    <li><a href="index.html" class="slidey"><img src="Content/images/home.png" /></a></li>
+    <li><a href="#" style="cursor:default"><img src="Content/images/star.png" /></a></li>
+    <li class="current_page_item"><a href="gallery.html" class="slidey"><img src="Content/images/gallery.png" /></a></li>
+    <li><a href="#"style="cursor:default"><img src="Content/images/star.png" /></a></li>
+    <li><a href="prices.html" class="slidey"><img src="Content/images/prices.png" /></a></li>
+    <li><a href="#"style="cursor:default"><img src="Content/images/star.png" /></a></li>
+    <li><a href="publications.html" class="slidey"><img src="Content/images/publications.png" /></a></li>
+ 
+ 
+ </ul>
+</div>
+
+        </div>
+
+        <div class="main">
+<div class="imageFlowContainer">
+    <div id="gallery" class="imageflow"> 
+
+    
+      <img src="Content/images/thumbnails/thumb-1.png" longdesc="javascript:tb_show( '', 'Content/images/photos/1.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-2.png" longdesc="javascript:tb_show( '', 'Content/images/photos/2.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-3.png" longdesc="javascript:tb_show( '', 'Content/images/photos/3.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-4.png" longdesc="javascript:tb_show( '', 'Content/images/photos/4.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-5.png" longdesc="javascript:tb_show( '', 'Content/images/photos/5.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-6.png" longdesc="javascript:tb_show( '', 'Content/images/photos/6.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-7.png" longdesc="javascript:tb_show( '', 'Content/images/photos/7.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-8.png" longdesc="javascript:tb_show( '', 'Content/images/photos/8.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-9.png" longdesc="javascript:tb_show( '', 'Content/images/photos/9.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-10.png" longdesc="javascript:tb_show( '', 'Content/images/photos/10.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-11.png" longdesc="javascript:tb_show( '', 'Content/images/photos/11.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-12.png" longdesc="javascript:tb_show( '', 'Content/images/photos/12.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-13.png" longdesc="javascript:tb_show( '', 'Content/images/photos/13.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-14.png" longdesc="javascript:tb_show( '', 'Content/images/photos/14.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-15.png" longdesc="javascript:tb_show( '', 'Content/images/photos/15.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-16.png" longdesc="javascript:tb_show( '', 'Content/images/photos/16.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-17.png" longdesc="javascript:tb_show( '', 'Content/images/photos/17.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-18.png" longdesc="javascript:tb_show( '', 'Content/images/photos/18.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-19.png" longdesc="javascript:tb_show( '', 'Content/images/photos/19.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-20.png" longdesc="javascript:tb_show( '', 'Content/images/photos/20.png', '' )"  />
+      <img src="Content/images/thumbnails/thumb-21.png" longdesc="javascript:tb_show( '', 'Content/images/photos/21.png', '' )"  />
+    
+
+</div>
+</div>
+        </div>
+
+        <div class="fancy"></div>
+
+        <div class="bottom">
+      <p style="margin-left:10px;"><span class="darkblue">T:</span> 01268 573795&nbsp; &nbsp; <span class="darkblue">M:</span> 07851 129088</p>
+      <p style="margin-left:10px;margin-top:10px;"><span class="darkblue">E:</span> jillletch@btopenworld.com</p>
+       
+       <p style="margin-top:10px;"><span><a class="darkblue" target="_blank" href="http://www.facebook.com/pages/Bridal-Hair-byJill/113067622119762">facebook</a></span> <span style="margin-left:20px;"><a class="darkblue" target="_blank" href="https://twitter.com/bridalhairbyjil">twitter</a></span></p>
+        </div>
+<div style="padding-bottom:100px;" />
+    </div>
+    
+</body>
+</html>
